@@ -1,0 +1,32 @@
+.contenedor p{
+    width: auto;
+    height: auto;
+    font-size: medium;
+    color: aliceblue;
+    background-color: rgba(10, 19, 27, 0.8);
+    margin-top: -1px;
+    margin-left: -24px;
+    padding: 20px;
+    border: 2px solid;
+    border-color: aliceblue;
+}
+.contenedor button{
+    font-size: medium;
+    margin-top: 20px;
+    border: 2px solid;
+    border-radius: 6%;
+    border-color: aliceblue;
+    padding: 4px 9px;
+    align-items: center;
+    background-color: transparent;
+    color: aliceblue;
+}
+.contenedor span{
+    font-size: x-large
+}
+form .container button{
+    background-color: rgb(115, 182, 53);
+}
+form .container button:hover{
+    background-color: rgb(77, 129, 28);
+}
