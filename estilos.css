@@ -1,3 +1,41 @@
+/* Texto encima de carrusel */
+.carousel div div div div div div p{
+    position: relative;
+    display: block;
+    width: 90%;
+    height: auto;
+    font-size: medium;
+    color: aliceblue;
+    margin-left: 60%;
+    margin-top: 40%;
+}
+.carousel div div div div div div span{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -20px;
+}
+#boton1 {
+    margin-right: 5px;
+    font-size: medium;
+    border: 2px solid;
+    border-radius: 6%;
+    background-color: rgba(22, 22, 21, 0.511);;
+    color: aliceblue;
+    padding: 10px;
+}
+#boton2 {
+    margin-right: 5px;
+    font-size: medium;
+    border-radius: 6%;
+    background-color: rgba(25, 197, 25, 0.805);
+    color: aliceblue;
+    padding: 10px;
+}
+.d-block{
+    filter: brightness(50%);
+}
+
+/* Texto "Bs As - Octubre" */
 .contenedor p{
     width: auto;
     height: auto;
@@ -24,9 +62,17 @@
 .contenedor span{
     font-size: x-large
 }
+
+/* Edición de colores del formulario */
 form .container button{
     background-color: rgb(115, 182, 53);
 }
 form .container button:hover{
     background-color: rgb(77, 129, 28);
+}
+
+/* Orden de items en nav - footer */
+body ul{
+    display: flex;
+    justify-content: space-around;
 }
