@@ -10,20 +10,48 @@
     margin-top: 40%;
 }
 /* Texto Responsive */
-@media (max-width: 576px){ 
+@media (min-width: 1025px){   
     .carousel div div div div div div p{
         font-size: 20px;
     }
 }
-@media (min-width: 577px) and (max-width: 768px){   
+@media (min-width: 981px) and (max-width: 1024px){   
     .carousel div div div div div div p{
         font-size: 15px;
     }
+    .carousel #boton1{
+        font-size: 12px;
+        padding: 7px;
+    }
+    .carousel #boton2{
+        font-size: 12px;
+        padding: 7px;
+    }
 }
-@media (max-width: 769px){
+@media (min-width: 769px) and (max-width: 980px){
     .carousel div div div div div div p{
-        margin-top: 20%;
         font-size: 11px;
+    }
+    .carousel #boton1{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .carousel #boton2{
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+@media (min-width: 375px) and (max-width: 768px){
+    .carousel div div div div div div p{
+        font-size: 9px;
+    }
+    .carousel #boton1{
+        font-size: 7px;
+        padding: 4px;
+    }
+    .carousel #boton2{
+        font-size: 7px;
+        padding: 4px;
     }
 }
 .carousel div div div div div div span{
