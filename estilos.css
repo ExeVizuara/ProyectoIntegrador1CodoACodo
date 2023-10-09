@@ -4,10 +4,27 @@
     display: block;
     width: 90%;
     height: auto;
-    font-size: medium;
+    font-size: 16px;
     color: aliceblue;
     margin-left: 60%;
     margin-top: 40%;
+}
+/* Texto Responsive */
+@media (max-width: 576px){ 
+    .carousel div div div div div div p{
+        font-size: 20px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px){   
+    .carousel div div div div div div p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 769px){
+    .carousel div div div div div div p{
+        margin-top: 20%;
+        font-size: 11px;
+    }
 }
 .carousel div div div div div div span{
     display: flex;
@@ -70,7 +87,6 @@ form .container button{
 form .container button:hover{
     background-color: rgb(77, 129, 28);
 }
-
 /* Orden de items en nav - footer */
 body ul{
     display: flex;
