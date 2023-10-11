@@ -10,12 +10,7 @@
     margin-top: 40%;
 }
 /* Texto Responsive */
-@media (min-width: 1025px){   
-    .carousel div div div div div div p{
-        font-size: 20px;
-    }
-}
-@media (min-width: 981px) and (max-width: 1024px){   
+@media (max-width: 1200px){   
     .carousel div div div div div div p{
         font-size: 15px;
     }
@@ -28,9 +23,9 @@
         padding: 7px;
     }
 }
-@media (min-width: 769px) and (max-width: 980px){
+@media (max-width: 992px){
     .carousel div div div div div div p{
-        font-size: 11px;
+        font-size: 14px;
     }
     .carousel #boton1{
         font-size: 10px;
@@ -41,18 +36,58 @@
         padding: 5px;
     }
 }
-@media (min-width: 375px) and (max-width: 768px){
+@media (max-width: 768px){
     .carousel div div div div div div p{
-        font-size: 9px;
+        font-size: 10px;
     }
     .carousel #boton1{
-        font-size: 7px;
-        padding: 4px;
+        font-size: 8px;
+        padding: 5px;
     }
     .carousel #boton2{
-        font-size: 7px;
-        padding: 4px;
+        font-size: 8px;
+        padding: 5px;
     }
+}
+@media (max-width: 526px) {
+    .carousel div div div div div div p{
+        font-size: 6px;
+    }
+    .carousel #boton1{
+        font-size: 4px;
+        padding: 2px;
+    }
+    .carousel #boton2{
+        font-size: 4px;
+        padding: 2px;
+    }
+}
+@media (max-width: 400px) {
+    .carousel div div div div div div p{
+        font-size: 6px;
+    }
+    .carousel #boton1{
+        font-size: 4px;
+        padding: 2px;
+    }
+    .carousel #boton2{
+        font-size: 4px;
+        padding: 2px;
+    }
+}
+@media (max-width: 300px) {
+    .carousel div div div div div div p{
+        font-size: 6px;
+    }
+    .carousel #boton1{
+        font-size: 4px;
+        padding: 2px;
+    }
+    .carousel #boton2{
+        font-size: 4px;
+        padding: 2px;
+    }
+    
 }
 .carousel div div div div div div span{
     display: flex;
@@ -120,3 +155,4 @@ body ul{
     display: flex;
     justify-content: space-around;
 }
+
