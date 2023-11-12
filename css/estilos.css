@@ -1,3 +1,4 @@
+/* Logo */
 header a img {
     height: 80px;
     width: auto;
@@ -7,7 +8,7 @@ header a img {
 header a img:hover {
     transform: scale(1.2, 1.2);
 }
-/* Texto encima de carrusel */
+/* Texto sobre de carrusel */
 .carousel div div div div div div p {
     position: relative;
     display: block;
